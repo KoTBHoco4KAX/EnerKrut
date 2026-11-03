@@ -1,0 +1,325 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Rarity {
+  common
+  uncommon
+  rare
+  epic
+  legendary
+  fictional_mythic
+}
+
+enum Condition {
+  mint
+  dented
+  bloated
+  crooked_label
+}
+
+enum ConditionProfileKey {
+  massmarket
+  premium_import
+  archive_rare
+  fictional
+}
+
+enum ContainerType {
+  can
+  slim_can
+  bottle
+  shot
+  jar
+  tube
+  jelly
+  ration
+  carton
+}
+
+enum KeyGrade {
+  gray
+  color
+  engraved
+  gold
+}
+
+enum Decision {
+  sold
+  drank
+  kept
+}
+
+enum VendingEventType {
+  stuck_can_hit
+  stuck_can_double
+  stuck_can_fail
+  machine_ate_100
+  tachycardia_trigger
+}
+
+enum LedgerCurrency {
+  rub
+  star
+}
+
+enum PaymentStatus {
+  pending
+  paid
+  failed
+  refunded
+}
+
+enum PaymentPurpose {
+  rub_pack_small
+  rub_pack_mid
+  rub_pack_large
+  vip_30d
+  vip_90d
+  donate_safe
+  donate_import
+  auction_pass
+}
+
+model ItemsCatalog {
+  id               String              @id
+  displayName      String
+  displayNameRu    String?
+  brand            String
+  countryOrigin    String              @db.Char(2)
+  containerType    ContainerType
+  rarity           Rarity
+  conditionProfile ConditionProfileKey
+  basePriceRub     Int
+  tasteScore       Decimal             @db.Decimal(3, 1)
+  flavorNotes      String
+  yearRelease      Int?
+  isAlcoholic      Boolean             @default(false)
+  alcoholPercent   Decimal?            @db.Decimal(3, 1)
+  isFictional      Boolean             @default(false)
+  isDiscontinued   Boolean             @default(false)
+  isArchiveRare    Boolean             @default(false)
+  imageUrl         String
+  imageThumbUrl    String
+  source           String
+  legalFlags       Json
+  createdAt        DateTime            @default(now())
+  updatedAt        DateTime            @updatedAt
+  dropEntries      CaseDropTable[]
+  inventory        UserInventory[]
+  dropHistory      DropHistory[]
+
+  @@index([rarity])
+  @@index([conditionProfile])
+  @@index([isArchiveRare, isDiscontinued])
+}
+
+model ConditionProfile {
+  key           ConditionProfileKey @id
+  multipliers   Json
+  allowedStates Condition[]
+  description   String
+}
+
+model Case {
+  id                String             @id
+  slug              String             @unique
+  displayName       String
+  description       String
+  priceRub          Int
+  priceStarsAlt     Int?
+  isActive          Boolean            @default(true)
+  minBpmRequired    Int                @default(0)
+  isVipOnly         Boolean            @default(false)
+  hasVendingMachine Boolean            @default(false)
+  coverUrl          String
+  order             Int
+  createdAt         DateTime           @default(now())
+  rarityWeights     CaseRarityWeight[]
+  dropTable         CaseDropTable[]
+  dropHistory       DropHistory[]
+  vendingEvents     VendingEvent[]
+  tickets           CaseTicket[]
+}
+
+model CaseRarityWeight {
+  caseId String
+  rarity Rarity
+  weight Int
+  case   Case   @relation(fields: [caseId], references: [id])
+
+  @@id([caseId, rarity])
+}
+
+model CaseDropTable {
+  caseId String
+  itemId String
+  weight Int
+  case   Case         @relation(fields: [caseId], references: [id])
+  item   ItemsCatalog @relation(fields: [itemId], references: [id])
+
+  @@id([caseId, itemId])
+  @@index([caseId, weight])
+}
+
+model User {
+  id                String            @id @default(uuid())
+  telegramId        BigInt            @unique
+  username          String?
+  firstName         String?
+  balanceRub        BigInt            @default(0)
+  balanceStars      Int               @default(0)
+  keysGray          Int               @default(0)
+  keysColor         Int               @default(0)
+  keysEngraved      Int               @default(0)
+  keysGold          Int               @default(0)
+  bpmCurrent        Int               @default(60)
+  bpmUpdatedAt      DateTime          @default(now())
+  tachycardiaActive Boolean           @default(false)
+  tachycardiaUntil  DateTime?
+  vipTier           Int               @default(0)
+  vipExpiresAt      DateTime?
+  createdAt         DateTime          @default(now())
+  lastSeenAt        DateTime          @default(now())
+  isBanned          Boolean           @default(false)
+  inventory         UserInventory[]
+  dropHistory       DropHistory[]
+  rubLedger         RubLedger[]
+  starLedger        StarLedger[]
+  keyLedger         KeyLedger[]
+  payments          TelegramPayment[]
+  vendingEvents     VendingEvent[]
+  caseTickets       CaseTicket[]
+}
+
+model UserInventory {
+  id               String        @id @default(uuid())
+  userId           String
+  itemId           String
+  condition        Condition
+  state            String        @default("pending")
+  obtainedFromCase String?
+  obtainedAt       DateTime      @default(now())
+  servedPriceRub   Int
+  decision         Decision?
+  decisionAt       DateTime?
+  meta             Json          @default("{}")
+  user             User          @relation(fields: [userId], references: [id])
+  item             ItemsCatalog  @relation(fields: [itemId], references: [id])
+
+  @@index([userId, decision])
+  @@index([itemId, condition])
+}
+
+model DropHistory {
+  id              String        @id @default(uuid())
+  userId          String
+  caseId          String
+  itemId          String
+  rarity          Rarity
+  condition       Condition
+  rollSeed        String
+  rollValueRarity Int
+  rollValueItem   Int
+  weightsSnapshot Json
+  servedPriceRub  Int
+  decision        Decision?
+  decisionAt      DateTime?
+  createdAt       DateTime      @default(now())
+  user            User          @relation(fields: [userId], references: [id])
+  case            Case          @relation(fields: [caseId], references: [id])
+  item            ItemsCatalog  @relation(fields: [itemId], references: [id])
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@index([caseId, rarity])
+  @@index([itemId])
+}
+
+model RubLedger {
+  id           String   @id @default(uuid())
+  userId       String
+  deltaRub     BigInt
+  reason       String
+  refId        String?
+  balanceAfter BigInt
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id])
+
+  @@index([userId, createdAt(sort: Desc)])
+}
+
+model StarLedger {
+  id           String   @id @default(uuid())
+  userId       String
+  deltaStars   Int
+  reason       String
+  refId        String?
+  balanceAfter Int
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id])
+
+  @@index([userId, createdAt(sort: Desc)])
+}
+
+model KeyLedger {
+  id           String   @id @default(uuid())
+  userId       String
+  grade        KeyGrade
+  delta        Int
+  reason       String
+  sourceItem   String?
+  refId        String?
+  balanceAfter Int
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id])
+
+  @@index([userId, grade, createdAt(sort: Desc)])
+}
+
+model TelegramPayment {
+  id                      String        @id @default(uuid())
+  userId                  String
+  purpose                 PaymentPurpose
+  amountStars             Int
+  invoiceLink             String
+  telegramPaymentChargeId String?       @unique
+  status                  PaymentStatus @default(pending)
+  payload                 Json
+  createdAt               DateTime      @default(now())
+  paidAt                  DateTime?
+  user                    User          @relation(fields: [userId], references: [id])
+
+  @@index([userId, status])
+}
+
+model VendingEvent {
+  id        String           @id @default(uuid())
+  userId    String
+  caseId    String
+  eventType VendingEventType
+  outcome   Json
+  createdAt DateTime         @default(now())
+  user      User             @relation(fields: [userId], references: [id])
+  case      Case             @relation(fields: [caseId], references: [id])
+
+  @@index([userId, createdAt(sort: Desc)])
+}
+
+model CaseTicket {
+  id         String    @id @default(uuid())
+  userId     String
+  caseId     String
+  source     String
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime  @default(now())
+  user       User      @relation(fields: [userId], references: [id])
+  case       Case      @relation(fields: [caseId], references: [id])
+
+  @@index([userId, consumedAt])
+}

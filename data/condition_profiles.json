@@ -1,0 +1,46 @@
+[
+  {
+    "key": "massmarket",
+    "multipliers": {
+      "mint": 1.0,
+      "dented": 0.75,
+      "bloated": 0.5,
+      "crooked_label": 0.85
+    },
+    "allowedStates": ["mint", "dented", "bloated", "crooked_label"],
+    "description": "Массмаркет: ходовые банки из сетевых холодильников с полным набором бытовых дефектов."
+  },
+  {
+    "key": "premium_import",
+    "multipliers": {
+      "mint": 1.0,
+      "dented": 0.6,
+      "bloated": 0.3,
+      "crooked_label": 1.0
+    },
+    "allowedStates": ["mint", "dented", "crooked_label"],
+    "description": "Премиальный импорт: ровная геометрия банки, допустимы вмятины и перекошенная этикетка."
+  },
+  {
+    "key": "archive_rare",
+    "multipliers": {
+      "mint": 1.0,
+      "dented": 0.7,
+      "bloated": 2.0,
+      "crooked_label": 1.0
+    },
+    "allowedStates": ["mint", "dented", "bloated"],
+    "description": "Архивный раритет: вздутие банки повышает коллекционную ценность лота."
+  },
+  {
+    "key": "fictional",
+    "multipliers": {
+      "mint": 1.0,
+      "dented": 1.0,
+      "bloated": 1.0,
+      "crooked_label": 1.0
+    },
+    "allowedStates": ["mint"],
+    "description": "Вымышленные пародийные персонажи существуют только в идеальном состоянии mint."
+  }
+]

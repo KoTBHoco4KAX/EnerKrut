@@ -1,0 +1,53 @@
+{
+  "name": "@enerkrut/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./index.ts"
+    },
+    "./enums": {
+      "types": "./enums.ts",
+      "default": "./enums.ts"
+    },
+    "./schemas/item": {
+      "types": "./schemas/item.ts",
+      "default": "./schemas/item.ts"
+    },
+    "./schemas/case": {
+      "types": "./schemas/case.ts",
+      "default": "./schemas/case.ts"
+    },
+    "./schemas/conditionProfile": {
+      "types": "./schemas/conditionProfile.ts",
+      "default": "./schemas/conditionProfile.ts"
+    },
+    "./schemas/api": {
+      "types": "./schemas/api.ts",
+      "default": "./schemas/api.ts"
+    },
+    "./config/conditionRollWeights": {
+      "types": "./config/conditionRollWeights.ts",
+      "default": "./config/conditionRollWeights.ts"
+    },
+    "./config/craftRecipes": {
+      "types": "./config/craftRecipes.ts",
+      "default": "./config/craftRecipes.ts"
+    },
+    "./config/lambardRates": {
+      "types": "./config/lambardRates.ts",
+      "default": "./config/lambardRates.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}

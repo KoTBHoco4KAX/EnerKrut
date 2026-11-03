@@ -1,0 +1,2507 @@
+[
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_original_1998",
+    "weight": 1
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_original_2001",
+    "weight": 18
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_original_2000",
+    "weight": 35
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_original_1999",
+    "weight": 52
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_original_2001",
+    "weight": 69
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_original_2011",
+    "weight": 86
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_original_2008",
+    "weight": 3
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_original_2012",
+    "weight": 20
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_tropical_1999",
+    "weight": 48
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_tropical_2002",
+    "weight": 65
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_tropical_2001",
+    "weight": 82
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_mango_2000",
+    "weight": 99
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_tropical_2002",
+    "weight": 16
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_tropical_2012",
+    "weight": 33
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_tropical_2009",
+    "weight": 50
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_tropical_2013",
+    "weight": 67
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_mango_2000",
+    "weight": 95
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_mango_2003",
+    "weight": 12
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_mango_2002",
+    "weight": 29
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_lime_2001",
+    "weight": 46
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_mango_2003",
+    "weight": 63
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_mango_2013",
+    "weight": 80
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_mango_2010",
+    "weight": 97
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_mango_2014",
+    "weight": 14
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_lime_1998",
+    "weight": 42
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_lime_2001",
+    "weight": 59
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_lime_2000",
+    "weight": 76
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_cherry_1999",
+    "weight": 93
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_lime_2001",
+    "weight": 10
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_lime_2011",
+    "weight": 27
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_lime_2008",
+    "weight": 44
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_lime_2012",
+    "weight": 61
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_cherry_1999",
+    "weight": 89
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_cherry_2002",
+    "weight": 6
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_cherry_2001",
+    "weight": 23
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_blueberry_2000",
+    "weight": 40
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_cherry_2002",
+    "weight": 57
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_cherry_2012",
+    "weight": 74
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_cherry_2009",
+    "weight": 91
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_cherry_2013",
+    "weight": 8
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_blueberry_2000",
+    "weight": 56
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_watermelon_2003",
+    "weight": 73
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_blueberry_2002",
+    "weight": 90
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_watermelon_2001",
+    "weight": 7
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_blueberry_2003",
+    "weight": 24
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_watermelon_2013",
+    "weight": 41
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_blueberry_2010",
+    "weight": 58
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_watermelon_2014",
+    "weight": 75
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_watermelon_1998",
+    "weight": 3
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_peach_2001",
+    "weight": 20
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_watermelon_2000",
+    "weight": 37
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_peach_1999",
+    "weight": 54
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_watermelon_2001",
+    "weight": 71
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_peach_2011",
+    "weight": 88
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_watermelon_2008",
+    "weight": 5
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_peach_2012",
+    "weight": 22
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_peach_1999",
+    "weight": 50
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_grape_2002",
+    "weight": 67
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_peach_2001",
+    "weight": 84
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_grape_2000",
+    "weight": 1
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_grape_2000",
+    "weight": 89
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_pineapple_2003",
+    "weight": 6
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_grape_2002",
+    "weight": 23
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_pineapple_2001",
+    "weight": 40
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_burn_peach_2002",
+    "weight": 46
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_gorilla_grape_2012",
+    "weight": 63
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_e_on_peach_2009",
+    "weight": 80
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_volt_grape_2013",
+    "weight": 97
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_pineapple_1998",
+    "weight": 36
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_citrus_2001",
+    "weight": 53
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_citrus_2000",
+    "weight": 70
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_citrus_1999",
+    "weight": 87
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_citrus_1999",
+    "weight": 11
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_original_2005",
+    "weight": 28
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_drive_original_2004",
+    "weight": 45
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_adrenaline_rush_raspberry_2000",
+    "weight": 62
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_raspberry_2000",
+    "weight": 22
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_tornado_energy_tropical_2006",
+    "weight": 39
+  },
+  {
+    "caseId": "pyaterochka_fridge",
+    "itemId": "py_flash_cola_1998",
+    "weight": 33
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_original_2002",
+    "weight": 1
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_original_2001",
+    "weight": 18
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_original_2003",
+    "weight": 35
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_original_2007",
+    "weight": 52
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_original_2004",
+    "weight": 69
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_original_2005",
+    "weight": 86
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_original_2004",
+    "weight": 3
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_original_2008",
+    "weight": 20
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_lo_carb_2003",
+    "weight": 48
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_tropical_2002",
+    "weight": 65
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_tropical_2004",
+    "weight": 82
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_tropical_2008",
+    "weight": 99
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_tropical_2005",
+    "weight": 16
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_klyukva_2006",
+    "weight": 33
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_lemon_2005",
+    "weight": 50
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_mango_2009",
+    "weight": 67
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_mango_loco_2004",
+    "weight": 95
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_mango_2003",
+    "weight": 12
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_mango_2005",
+    "weight": 29
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_mango_2009",
+    "weight": 46
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_mango_2006",
+    "weight": 63
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_limon_2007",
+    "weight": 80
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_berry_2006",
+    "weight": 97
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_laym_2010",
+    "weight": 14
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_pipeline_punch_2002",
+    "weight": 42
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_khaos_2003",
+    "weight": 45
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_lime_2001",
+    "weight": 51
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_lime_2003",
+    "weight": 68
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_lime_2007",
+    "weight": 85
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_lime_2004",
+    "weight": 2
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_vishnya_2005",
+    "weight": 19
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_tropical_2004",
+    "weight": 36
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_vishnya_2008",
+    "weight": 53
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_ultra_white_2004",
+    "weight": 92
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_cherry_2002",
+    "weight": 98
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_cherry_2004",
+    "weight": 15
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_cherry_2008",
+    "weight": 32
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_cherry_2005",
+    "weight": 49
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_chernaya_smorodina_2006",
+    "weight": 66
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_citrus_2005",
+    "weight": 83
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_lesnye_yagody_2009",
+    "weight": 100
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_ultra_violet_2002",
+    "weight": 39
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_blueberry_2003",
+    "weight": 45
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_watermelon_2005",
+    "weight": 62
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_watermelon_2009",
+    "weight": 79
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_watermelon_2006",
+    "weight": 96
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_original_2010",
+    "weight": 13
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_original_2009",
+    "weight": 30
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_original_2013",
+    "weight": 47
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_ultra_paradise_2003",
+    "weight": 86
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_nitro_2004",
+    "weight": 89
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_watermelon_2001",
+    "weight": 84
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_peach_2003",
+    "weight": 1
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_peach_2007",
+    "weight": 18
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_peach_2004",
+    "weight": 35
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_klyukva_2008",
+    "weight": 52
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_lemon_2007",
+    "weight": 69
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_mango_2011",
+    "weight": 86
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_assault_2002",
+    "weight": 36
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_peach_2002",
+    "weight": 31
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_grape_2004",
+    "weight": 48
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_grape_2008",
+    "weight": 65
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_grape_2005",
+    "weight": 82
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_limon_2009",
+    "weight": 99
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_berry_2008",
+    "weight": 16
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_laym_2012",
+    "weight": 33
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_ripper_2003",
+    "weight": 83
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_grape_2003",
+    "weight": 78
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_citrus_2005",
+    "weight": 95
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_citrus_2009",
+    "weight": 12
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_mixxd_2004",
+    "weight": 22
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_citrus_2001",
+    "weight": 17
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_original_2006",
+    "weight": 34
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_jaguar_2007_guava_2007",
+    "weight": 51
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_red_devil_citrus_2006",
+    "weight": 57
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_chernyy_russkiy_vishnya_2010",
+    "weight": 74
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_hooch_tropical_2009",
+    "weight": 91
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_strike_vishnya_2013",
+    "weight": 8
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_bad_apple_2002",
+    "weight": 33
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_burn_original_2005",
+    "weight": 28
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_tiger_energy_tropical_2007",
+    "weight": 45
+  },
+  {
+    "caseId": "tabachka_ip",
+    "itemId": "tb_monster_energy_lewis_hamilton_2003",
+    "weight": 44
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_original_1999",
+    "weight": 1
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_original_1962",
+    "weight": 18
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_original_1998",
+    "weight": 35
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_black_1992",
+    "weight": 52
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_original_1994",
+    "weight": 69
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_original_2000",
+    "weight": 86
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_original_1997",
+    "weight": 3
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_original_2003",
+    "weight": 20
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_citrus_2000",
+    "weight": 48
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_royal_1963",
+    "weight": 65
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_citrus_1999",
+    "weight": 82
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_latte_1993",
+    "weight": 99
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_citrus_1995",
+    "weight": 16
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_citrus_2001",
+    "weight": 33
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_citrus_1998",
+    "weight": 50
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_grape_2001",
+    "weight": 23
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_shot_1964",
+    "weight": 40
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_grape_2000",
+    "weight": 57
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_espresso_1994",
+    "weight": 74
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_peach_1996",
+    "weight": 91
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_grape_2002",
+    "weight": 8
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_peach_1999",
+    "weight": 25
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_yuzu_2004",
+    "weight": 31
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_peach_1999",
+    "weight": 70
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_taurine_1962",
+    "weight": 87
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_peach_1998",
+    "weight": 4
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_vanilla_1992",
+    "weight": 21
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_lychee_1994",
+    "weight": 38
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_yuzu_2000",
+    "weight": 55
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_melon_1997",
+    "weight": 72
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_ume_2005",
+    "weight": 78
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_lychee_2000",
+    "weight": 17
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_citrus_1963",
+    "weight": 34
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_lychee_1999",
+    "weight": 51
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_caramel_1993",
+    "weight": 68
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_melon_1995",
+    "weight": 85
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_pineapple_2001",
+    "weight": 2
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_yuzu_1998",
+    "weight": 19
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_grape_2003",
+    "weight": 25
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_melon_2001",
+    "weight": 64
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_yuzu_1999",
+    "weight": 67
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_grape_1964",
+    "weight": 73
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_melon_2000",
+    "weight": 90
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_matcha_1994",
+    "weight": 7
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_coffee_1996",
+    "weight": 24
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_matcha_2002",
+    "weight": 41
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_ramune_1999",
+    "weight": 58
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_citrus_2004",
+    "weight": 64
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_ramune_2000",
+    "weight": 14
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_original_1965",
+    "weight": 20
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_yuzu_1998",
+    "weight": 37
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_hazelnut_1992",
+    "weight": 54
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_original_1997",
+    "weight": 71
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_original_2003",
+    "weight": 88
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_original_2000",
+    "weight": 5
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_original_2008",
+    "weight": 11
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_pineapple_2001",
+    "weight": 61
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_royal_1966",
+    "weight": 67
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_pineapple_1999",
+    "weight": 84
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_black_1996",
+    "weight": 1
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_citrus_1998",
+    "weight": 18
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_citrus_2004",
+    "weight": 35
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_citrus_2001",
+    "weight": 52
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_yuzu_2006",
+    "weight": 58
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_apple_1999",
+    "weight": 8
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_original_2003",
+    "weight": 11
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_shot_1967",
+    "weight": 6
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_original_2003",
+    "weight": 23
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_latte_1997",
+    "weight": 40
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_georgia_energy_peach_1999",
+    "weight": 57
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_suntory_energy_grape_2005",
+    "weight": 74
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_pokka_sapporo_peach_2002",
+    "weight": 91
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_sho_chu_high_ume_2007",
+    "weight": 97
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_citrus_2004",
+    "weight": 58
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_taurine_1965",
+    "weight": 53
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_grape_2002",
+    "weight": 33
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_citrus_1966",
+    "weight": 28
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_real_gold_citrus_2001",
+    "weight": 34
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_boss_coffee_taurine_espresso_1995",
+    "weight": 51
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_zone_peach_2003",
+    "weight": 44
+  },
+  {
+    "caseId": "tokyo_jidohanbai",
+    "itemId": "tj_lipovitan_d_grape_1967",
+    "weight": 39
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_mean_bean_2003",
+    "weight": 1
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_yellow_1987",
+    "weight": 18
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_original_2001",
+    "weight": 35
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_storm_2018",
+    "weight": 52
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_rainbow_unicorn_2017",
+    "weight": 69
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_kona_blend_2004",
+    "weight": 12
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_green_1988",
+    "weight": 29
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_punched_2002",
+    "weight": 46
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_razzle_berry_2019",
+    "weight": 63
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_cotton_candy_2018",
+    "weight": 80
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_loca_moca_2005",
+    "weight": 8
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_blue_1989",
+    "weight": 25
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_recovery_2003",
+    "weight": 42
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_peach_fizz_2020",
+    "weight": 59
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_blue_razz_2019",
+    "weight": 76
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_salted_caramel_2003",
+    "weight": 4
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_peach_1987",
+    "weight": 21
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_revolt_2001",
+    "weight": 38
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_melon_mania_2018",
+    "weight": 55
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_cherry_blade_2017",
+    "weight": 72
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_irish_blend_2004",
+    "weight": 100
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_red_1988",
+    "weight": 17
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_super_sour_2002",
+    "weight": 34
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_lemon_hdz_2019",
+    "weight": 51
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_lemon_drop_2018",
+    "weight": 68
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_vanilla_light_2005",
+    "weight": 56
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_purple_1989",
+    "weight": 73
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_blackberry_2003",
+    "weight": 90
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_orange_dreamsicle_2020",
+    "weight": 7
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_peach_mango_2019",
+    "weight": 24
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_espresso_2003",
+    "weight": 52
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_coconut_1987",
+    "weight": 69
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_cotton_candy_2001",
+    "weight": 86
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_cherry_limeade_2018",
+    "weight": 3
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_purple_guava_2017",
+    "weight": 20
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_hazelnut_2004",
+    "weight": 48
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_watermelon_1988",
+    "weight": 65
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_lemonade_2002",
+    "weight": 82
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_white_gummy_bear_2019",
+    "weight": 99
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_star_blast_2018",
+    "weight": 16
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_cold_brew_2005",
+    "weight": 44
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_tropical_1989",
+    "weight": 61
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_guava_2003",
+    "weight": 78
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_mango_2020",
+    "weight": 95
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_radical_skadattle_2019",
+    "weight": 12
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_triple_shot_2003",
+    "weight": 40
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_sugarfree_1987",
+    "weight": 57
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_watermelon_2001",
+    "weight": 74
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_strawberry_2018",
+    "weight": 91
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_sour_heads_2017",
+    "weight": 8
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_mocha_2004",
+    "weight": 36
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_original_1988",
+    "weight": 53
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_original_2005",
+    "weight": 70
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_storm_2022",
+    "weight": 87
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_rainbow_unicorn_2021",
+    "weight": 4
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_swiss_chocolate_2005",
+    "weight": 22
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_summer_1989",
+    "weight": 39
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_punched_2006",
+    "weight": 56
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_razzle_berry_2023",
+    "weight": 73
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_cotton_candy_2022",
+    "weight": 90
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_mean_bean_2006",
+    "weight": 18
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_yellow_1990",
+    "weight": 35
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_recovery_2004",
+    "weight": 52
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_peach_fizz_2021",
+    "weight": 69
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_blue_razz_2020",
+    "weight": 86
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_kona_blend_2007",
+    "weight": 14
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_green_1991",
+    "weight": 31
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_revolt_2005",
+    "weight": 48
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_melon_mania_2022",
+    "weight": 65
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_cherry_blade_2021",
+    "weight": 82
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_loca_moca_2008",
+    "weight": 10
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_blue_1992",
+    "weight": 27
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_super_sour_2006",
+    "weight": 44
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_lemon_hdz_2023",
+    "weight": 61
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_lemon_drop_2022",
+    "weight": 78
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_salted_caramel_2006",
+    "weight": 66
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_peach_1990",
+    "weight": 83
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_blackberry_2004",
+    "weight": 100
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_reign_orange_dreamsicle_2021",
+    "weight": 17
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_bang_peach_mango_2020",
+    "weight": 34
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_irish_blend_2007",
+    "weight": 62
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_red_1991",
+    "weight": 79
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_cotton_candy_2005",
+    "weight": 96
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_monster_java_vanilla_light_2008",
+    "weight": 88
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_red_bull_editions_purple_1992",
+    "weight": 5
+  },
+  {
+    "caseId": "duty_free_airport",
+    "itemId": "df_rockstar_lemonade_2006",
+    "weight": 22
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_levzeya_1985",
+    "weight": 1
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_original_1998",
+    "weight": 18
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_original_2001",
+    "weight": 35
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_eleuterokokk_1986",
+    "weight": 12
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_tropical_1999",
+    "weight": 29
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_tropical_2002",
+    "weight": 46
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_original_2000",
+    "weight": 52
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_original_1999",
+    "weight": 69
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_original_2001",
+    "weight": 86
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_original_1997",
+    "weight": 3
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_original_2011",
+    "weight": 20
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_original_2002",
+    "weight": 37
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_rockstar_archive_original_2001",
+    "weight": 54
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_red_bull_archive_original_1987",
+    "weight": 71
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_zhenshen_1987",
+    "weight": 10
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_mango_2000",
+    "weight": 27
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_mango_2003",
+    "weight": 44
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_tropical_2001",
+    "weight": 50
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_limonnik_1985",
+    "weight": 34
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_lime_1998",
+    "weight": 51
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_cherry_2001",
+    "weight": 68
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_mango_2002",
+    "weight": 74
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_mango_2000",
+    "weight": 80
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_tropical_2002",
+    "weight": 97
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_tropical_1998",
+    "weight": 14
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_tropical_2012",
+    "weight": 31
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_lo_carb_2003",
+    "weight": 48
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_rockstar_archive_punched_2002",
+    "weight": 65
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_red_bull_archive_sugarfree_1988",
+    "weight": 82
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_rodiola_1986",
+    "weight": 32
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_cherry_1999",
+    "weight": 49
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_watermelon_2002",
+    "weight": 66
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_lime_2000",
+    "weight": 72
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_lime_2001",
+    "weight": 78
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_mango_2003",
+    "weight": 95
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_mango_1999",
+    "weight": 12
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_mango_2013",
+    "weight": 29
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_assault_2004",
+    "weight": 46
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_rockstar_archive_recovery_2003",
+    "weight": 63
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_red_bull_archive_yellow_1989",
+    "weight": 80
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_levzeya_1990",
+    "weight": 30
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_blueberry_2000",
+    "weight": 47
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_peach_2003",
+    "weight": 64
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_cherry_2001",
+    "weight": 70
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_cherry_1999",
+    "weight": 76
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_lime_2001",
+    "weight": 93
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_lime_1997",
+    "weight": 10
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_watermelon_2011",
+    "weight": 27
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_eleuterokokk_1988",
+    "weight": 67
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_watermelon_1998",
+    "weight": 84
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_original_2004",
+    "weight": 1
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_original_2005",
+    "weight": 7
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_blueberry_2000",
+    "weight": 13
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_cherry_2002",
+    "weight": 30
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_cherry_1998",
+    "weight": 47
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_peach_2012",
+    "weight": 64
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_ripper_2002",
+    "weight": 70
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_rockstar_archive_revolt_2001",
+    "weight": 87
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_red_bull_archive_green_1987",
+    "weight": 4
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_zhenshen_1989",
+    "weight": 65
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_peach_1999",
+    "weight": 82
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_tropical_2005",
+    "weight": 99
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_tropical_2003",
+    "weight": 5
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_watermelon_2001",
+    "weight": 11
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_original_2006",
+    "weight": 28
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_guava_1999",
+    "weight": 45
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_original_2016",
+    "weight": 62
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_khaos_2003",
+    "weight": 68
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_rockstar_archive_original_2005",
+    "weight": 85
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_red_bull_archive_blue_1988",
+    "weight": 2
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_limonnik_1990",
+    "weight": 63
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_original_2003",
+    "weight": 80
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_mango_2006",
+    "weight": 97
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_mango_2004",
+    "weight": 3
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_original_2002",
+    "weight": 9
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_tropical_2004",
+    "weight": 26
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_original_2000",
+    "weight": 43
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_tropical_2014",
+    "weight": 60
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_rodiola_1988",
+    "weight": 100
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_tropical_2001",
+    "weight": 17
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_cherry_2004",
+    "weight": 34
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_lime_2005",
+    "weight": 40
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_mango_2003",
+    "weight": 46
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_mango_2005",
+    "weight": 63
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_tropical_2001",
+    "weight": 80
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_mango_2015",
+    "weight": 97
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_mixxd_2004",
+    "weight": 92
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_rockstar_archive_punched_2006",
+    "weight": 9
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_red_bull_archive_original_1992",
+    "weight": 26
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_levzeya_1992",
+    "weight": 98
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_mango_2002",
+    "weight": 15
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_watermelon_2005",
+    "weight": 32
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_cherry_2003",
+    "weight": 38
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_lime_2004",
+    "weight": 44
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_burn_archive_lime_2006",
+    "weight": 61
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_bullit_mango_2002",
+    "weight": 78
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_gorilla_archive_watermelon_2016",
+    "weight": 95
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_monster_archive_original_2005",
+    "weight": 90
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_molodets_7h_eleuterokokk_1993",
+    "weight": 22
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_flash_archive_lime_2003",
+    "weight": 39
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_tornado_archive_peach_2006",
+    "weight": 56
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_drive_archive_original_2007",
+    "weight": 62
+  },
+  {
+    "caseId": "avito_garage_clean",
+    "itemId": "ag_adrenaline_rush_archive_cherry_2002",
+    "weight": 68
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_red_bull_collector_original_1987",
+    "weight": 1
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_monster_collector_original_2002",
+    "weight": 18
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_rockstar_collector_original_2001",
+    "weight": 35
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_battery_collector_original_1997",
+    "weight": 52
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_bullit_collector_original_1997",
+    "weight": 69
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_5_hour_energy_collector_original_2003",
+    "weight": 86
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lucozade_collector_original_1983",
+    "weight": 3
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_v_collector_original_1999",
+    "weight": 20
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lipovitan_collector_original_1962",
+    "weight": 37
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_shark_collector_original_1998",
+    "weight": 54
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_red_bull_collector_sugarfree_1988",
+    "weight": 82
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_monster_collector_lo_carb_2003",
+    "weight": 99
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_rockstar_collector_punched_2002",
+    "weight": 16
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_battery_collector_cranberry_1998",
+    "weight": 33
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_bullit_collector_sugarfree_1998",
+    "weight": 50
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_5_hour_energy_collector_extra_2004",
+    "weight": 67
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lucozade_collector_orange_1984",
+    "weight": 84
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_v_collector_green_2000",
+    "weight": 1
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lipovitan_collector_royal_1963",
+    "weight": 18
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_shark_collector_tropical_1999",
+    "weight": 35
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_red_bull_collector_krating_daeng_1989",
+    "weight": 63
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_monster_collector_khaos_2004",
+    "weight": 80
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_rockstar_collector_recovery_2003",
+    "weight": 97
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_battery_collector_coffee_1999",
+    "weight": 14
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_bullit_collector_tropical_1999",
+    "weight": 31
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_red_bull_collector_gold_edition_1987",
+    "weight": 34
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_monster_collector_assault_2002",
+    "weight": 51
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_rockstar_collector_guava_2001",
+    "weight": 68
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_battery_collector_sugarfree_1997",
+    "weight": 85
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_bullit_collector_original_2000",
+    "weight": 2
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_5_hour_energy_collector_grape_2005",
+    "weight": 8
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lucozade_collector_cherry_1985",
+    "weight": 25
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_v_collector_blue_2001",
+    "weight": 42
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lipovitan_collector_shot_1964",
+    "weight": 59
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_shark_collector_citrus_2000",
+    "weight": 76
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_red_bull_collector_silver_edition_1988",
+    "weight": 15
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_monster_collector_ripper_2003",
+    "weight": 32
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_rockstar_collector_burn_2002",
+    "weight": 49
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_battery_collector_original_2001",
+    "weight": 66
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_bullit_collector_sugarfree_2001",
+    "weight": 83
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_5_hour_energy_collector_berry_2003",
+    "weight": 89
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lucozade_collector_tropical_1983",
+    "weight": 6
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_v_collector_sugarfree_1999",
+    "weight": 23
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lipovitan_collector_original_1965",
+    "weight": 40
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_shark_collector_original_2001",
+    "weight": 57
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_red_bull_collector_winter_edition_1989",
+    "weight": 96
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_monster_collector_bfc_2004",
+    "weight": 13
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_rockstar_collector_original_2006",
+    "weight": 30
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_battery_collector_cranberry_2002",
+    "weight": 47
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_bullit_collector_tropical_2002",
+    "weight": 64
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_5_hour_energy_collector_original_2007",
+    "weight": 70
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lucozade_collector_original_1987",
+    "weight": 87
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_v_collector_original_2003",
+    "weight": 4
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_lipovitan_collector_royal_1966",
+    "weight": 21
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_shark_collector_tropical_2002",
+    "weight": 38
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_cheetah_chug_original_1997",
+    "weight": 1
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_staminan_x_original_1998",
+    "weight": 18
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_overdose_90s_original_1996",
+    "weight": 35
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_c_can_original_1999",
+    "weight": 52
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_voltage_void_original_2001",
+    "weight": 69
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_taurine_titan_original_2000",
+    "weight": 86
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_nightshift_9000_original_2003",
+    "weight": 3
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_mega_bull_x_original_1995",
+    "weight": 20
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_cyber_sip_original_2004",
+    "weight": 37
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_zero_gravity_original_2006",
+    "weight": 54
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_static_rush_original_1998",
+    "weight": 71
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_neon_fang_original_2007",
+    "weight": 88
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_proto_can_original_1994",
+    "weight": 5
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_ghost_batch_original_2002",
+    "weight": 22
+  },
+  {
+    "caseId": "ebay_private_auction",
+    "itemId": "eb_hyper_rooster_original_2000",
+    "weight": 39
+  }
+]

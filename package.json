@@ -1,0 +1,25 @@
+{
+  "name": "enerkrut",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel -r run dev",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r run test"
+  },
+  "devDependencies": {
+    "@enerkrut/shared": "workspace:*",
+    "@prisma/client": "5.22.0",
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.16.2",
+    "typescript": "5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
