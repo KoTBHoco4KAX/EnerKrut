@@ -81,7 +81,11 @@ export function registerTelegramAuth(
       return;
     }
     const path = request.url.split("?")[0];
-    if (request.method === "GET" && path === "/api/cases") {
+    // Публичные маршруты: каталог кейсов и healthcheck для docker/nginx.
+    if (
+      request.method === "GET" &&
+      (path === "/api/cases" || path === "/api/health")
+    ) {
       return;
     }
     const header = request.headers["x-telegram-init-data"];

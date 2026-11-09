@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Smartphone } from "lucide-react";
+import { RefreshCw, Smartphone } from "lucide-react";
 import type { ReactNode } from "react";
 import { useAuthStore } from "./stores/auth";
+import { isTelegramEnvironment } from "./lib/telegram";
 import { ActionButton } from "./components/ActionButton";
 import { BottomNav } from "./components/BottomNav";
 import { ToastHost } from "./components/ToastHost";
@@ -12,10 +13,16 @@ import { InventoryScreen } from "./screens/InventoryScreen";
 import { HistoryScreen } from "./screens/HistoryScreen";
 import { OpenCaseScreen } from "./screens/OpenCaseScreen";
 
+// В dev-режиме Vite кнопка входа доступна всегда.
+// В production-сборке — только если при сборке передан VITE_ALLOW_DEV_AUTH=true.
+const ALLOW_DEV_AUTH =
+  import.meta.env.DEV || import.meta.env.VITE_ALLOW_DEV_AUTH === "true";
+
 function TelegramGate(): ReactNode {
   const setInitData = useAuthStore((state) => state.setInitData);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  const insideTelegram = isTelegramEnvironment();
 
   const bypass = async (): Promise<void> => {
     setLoading(true);
@@ -36,20 +43,32 @@ function TelegramGate(): ReactNode {
       <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-bg-card text-accent-neon">
         <Smartphone className="h-8 w-8" aria-hidden="true" />
       </div>
-      <h1 className="text-xl font-bold text-text-primary">Открой через Telegram</h1>
+      <h1 className="text-xl font-bold text-text-primary">
+        {insideTelegram ? "Нет доступа к сессии Telegram" : "Открой через Telegram"}
+      </h1>
       <p className="max-w-xs text-sm leading-relaxed text-text-muted">
-        Мини-приложение работает внутри Telegram. Запусти его через бота, чтобы
-        получить доступ к инвентарю и кейсам.
+        {insideTelegram
+          ? "Не удалось получить initData. Закрой Mini App и открой его заново из бота."
+          : "Мини-приложение работает внутри Telegram. Запусти его через бота, чтобы получить доступ к инвентарю и кейсам."}
       </p>
-      {import.meta.env.DEV ? (
+      {insideTelegram ? (
         <ActionButton
           variant="primary"
+          icon={<RefreshCw className="h-4 w-4" />}
+          onClick={() => window.location.reload()}
+        >
+          Перезагрузить
+        </ActionButton>
+      ) : null}
+      {ALLOW_DEV_AUTH ? (
+        <ActionButton
+          variant={insideTelegram ? "danger" : "primary"}
           loading={loading}
           onClick={() => {
             void bypass();
           }}
         >
-          Попробовать в браузере с фейк-initData
+          {insideTelegram ? "Войти с dev-initData" : "Попробовать в браузере с фейк-initData"}
         </ActionButton>
       ) : null}
       {error ? (

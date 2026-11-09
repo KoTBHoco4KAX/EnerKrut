@@ -46,7 +46,9 @@ Open `http://localhost:5173`.
 
 Without Telegram initData the app shows the Telegram gate. In Vite development mode it also shows the button «Попробовать в браузере с фейк-initData». The button signs a development payload with `TEST_TOKEN`; the backend must use the same fallback token, which it does when `BOT_TOKEN` is empty or equal to `TEST_TOKEN`.
 
-This bypass exists only behind `import.meta.env.DEV` and must never be used in production.
+In a production build the same button appears only when the bundle is built with `VITE_ALLOW_DEV_AUTH=true` (Docker build arg / `.env`). Keep it `false` for a real release. If the app is opened inside Telegram but `initData` is missing, the gate explains the problem and offers a reload.
+
+Telegram Web may deliver `tgWebAppData` in the URL hash; the client reads it as a fallback when `WebApp.initData` is empty and retries for ~3 seconds after load.
 
 ## Telegram setup
 

@@ -21,7 +21,12 @@ export interface AppOptions {
 }
 
 export function buildApp(options: AppOptions = {}): FastifyInstance {
-  const app = Fastify({ logger: options.logger ?? false });
+  const app = Fastify({
+    logger: options.logger ?? false,
+    // За nginx / внешним reverse proxy (VPS + Certbot) реальный IP приходит
+    // в X-Forwarded-For — важно для rate limit и логов.
+    trustProxy: true,
+  });
   const ownsPrisma = options.prisma === undefined;
   const prisma = options.prisma ?? new PrismaClient();
   const configuredBotToken = options.botToken ?? process.env.BOT_TOKEN;
@@ -29,6 +34,12 @@ export function buildApp(options: AppOptions = {}): FastifyInstance {
     configuredBotToken === undefined || configuredBotToken.length === 0
       ? "TEST_TOKEN"
       : configuredBotToken;
+  if (botToken === "TEST_TOKEN") {
+    app.log.warn(
+      "BOT_TOKEN не задан: initData проверяется тестовым токеном. Заполни BOT_TOKEN в .env перед продакшеном.",
+    );
+  }
+
   const deps: AppDeps = {
     prisma,
     rng: options.rng ?? cryptoRandomSource,

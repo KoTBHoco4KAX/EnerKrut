@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx src/server.ts",
     "prisma": "prisma",
+    "migrate:deploy": "prisma migrate deploy",
     "seed": "tsx prisma/seed.ts",
     "validate-seed": "tsx scripts/validate-seed.ts",
     "generate-drop-table": "tsx scripts/generate-drop-table.ts",

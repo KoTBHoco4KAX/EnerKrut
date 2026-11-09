@@ -65,6 +65,16 @@ export function registerRoutes(
   app: FastifyInstance,
   deps: AppDeps,
 ): void {
+  // Публичный healthcheck: docker healthcheck, nginx и мониторинг.
+  app.get("/api/health", async (_request, reply) => {
+    try {
+      await deps.prisma.$queryRaw`SELECT 1`;
+      return { status: "ok", db: "up", uptime: Math.round(process.uptime()) };
+    } catch {
+      return reply.code(503).send({ status: "degraded", db: "down" });
+    }
+  });
+
   app.post("/api/cases/:id/open", async (request) => {
     const userId = authUserId(request);
     const params = IdParamsSchema.parse(request.params);

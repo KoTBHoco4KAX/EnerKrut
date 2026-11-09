@@ -7,6 +7,13 @@ COPY packages/shared/package.json ./packages/shared/
 COPY apps/web/package.json ./apps/web/
 RUN pnpm install --frozen-lockfile
 COPY . .
+
+# Vite подставляет эти значения на этапе сборки.
+ARG VITE_API_BASE_URL=/api
+ARG VITE_ALLOW_DEV_AUTH=false
+ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
+ENV VITE_ALLOW_DEV_AUTH=$VITE_ALLOW_DEV_AUTH
+
 RUN cd apps/web && pnpm run build
 
 FROM nginx:alpine

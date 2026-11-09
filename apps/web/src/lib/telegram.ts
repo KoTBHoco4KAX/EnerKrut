@@ -47,20 +47,48 @@ export function initTelegram(): void {
   }
 }
 
-export function getTelegramInitData(): string {
-  try {
-    return WebApp.initData;
-  } catch {
+type TelegramWindow = {
+  Telegram?: {
+    WebApp?: {
+      initData?: string;
+      initDataUnsafe?: { user?: unknown };
+    };
+  };
+};
+
+/** initData может прийти в hash — так делает Telegram Web (браузер). */
+function initDataFromHash(): string {
+  const rawHash = window.location.hash.replace(/^#/, "");
+  if (rawHash.length === 0) {
     return "";
   }
+  const value = new URLSearchParams(rawHash).get("tgWebAppData");
+  return value ?? "";
+}
+
+/** true, если страница открыта внутри Telegram (или в Telegram Web). */
+export function isTelegramEnvironment(): boolean {
+  const telegram = (window as unknown as TelegramWindow).Telegram;
+  if (telegram?.WebApp !== undefined) {
+    return true;
+  }
+  return window.location.hash.includes("tgWebAppData");
+}
+
+export function getTelegramInitData(): string {
+  try {
+    const initData = WebApp.initData;
+    if (initData.length > 0) {
+      return initData;
+    }
+  } catch {
+    // SDK недоступен (браузер вне Telegram) — пробуем hash.
+  }
+  return initDataFromHash();
 }
 
 export async function refreshTelegramInitData(): Promise<string> {
-  try {
-    return WebApp.initData;
-  } catch {
-    return "";
-  }
+  return getTelegramInitData();
 }
 
 export function haptic(kind: "impact", style: ImpactStyle): void;

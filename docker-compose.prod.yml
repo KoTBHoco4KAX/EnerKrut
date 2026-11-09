@@ -1,0 +1,34 @@
+# Продакшен-override для VPS.
+# Использование:
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+#
+# Предполагается, что реальный домен и TLS (Certbot / Caddy / Traefik)
+# настраиваются на хосте и проксируют трафик на 127.0.0.1:80 контейнера web.
+
+services:
+  postgres:
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  api:
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  web:
+    restart: always
+    # Всегда публикуем ровно 80-й порт, независимо от WEB_PORT в .env.
+    ports: !override
+      - "80:80"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

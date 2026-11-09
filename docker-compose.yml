@@ -1,35 +1,83 @@
+# Базовая конфигурация: не зависит от окружения.
+# Codespaces: docker compose up -d --build
+# VPS:        docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+name: enerkrut
+
 services:
   postgres:
-    image: postgres:15
+    image: postgres:15-alpine
+    restart: unless-stopped
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: collector
-    ports:
-      - "5432:5432"
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-enerkrut}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      test:
+        ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-enerkrut}"]
       interval: 5s
       timeout: 5s
-      retries: 5
+      retries: 12
+      start_period: 10s
+    networks:
+      - enerkrut
 
   api:
     build:
       context: .
       dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
     environment:
-      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/collector
-    ports:
-      - "3000:3000"
+      NODE_ENV: production
+      PORT: "3000"
+      # Внутренний хост postgres совпадает с именем сервиса в этой сети.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-enerkrut}?schema=public
+      BOT_TOKEN: ${BOT_TOKEN:-}
+      WEBAPP_URL: ${WEBAPP_URL:-http://localhost}
+    expose:
+      - "3000"
+    # API доступен только внутри docker-сети: наружу его отдаёт nginx.
     depends_on:
       postgres:
         condition: service_healthy
+    healthcheck:
+      test:
+        ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000/api/health >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    networks:
+      - enerkrut
 
   web:
     build:
       context: .
       dockerfile: apps/web/Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-/api}
+        VITE_ALLOW_DEV_AUTH: ${VITE_ALLOW_DEV_AUTH:-false}
+    restart: unless-stopped
     ports:
-      - "80:80"
+      # Наружу смотрит только nginx. На VPS сюда же можно повесить домен.
+      - "${WEB_PORT:-80}:80"
     depends_on:
-      - api
+      api:
+        condition: service_healthy
+    healthcheck:
+      test:
+        ["CMD-SHELL", "wget -qO- http://127.0.0.1/healthz >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 10s
+    networks:
+      - enerkrut
+
+volumes:
+  pgdata:
+
+networks:
+  enerkrut:
+    driver: bridge

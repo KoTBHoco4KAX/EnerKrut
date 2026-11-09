@@ -31,6 +31,48 @@ tests                    Module 1 database and constraint tests
 - pnpm 9.x (`npm install -g pnpm@9`)
 - PostgreSQL 15 reachable at `localhost:5432`
 
+## Docker: Codespaces и VPS
+
+Проект полностью конфигурируется через корневой `.env` (образец — `.env.example`).
+Внутри docker-сети API доступен по адресу `http://api:3000`, PostgreSQL — `postgres:5432`,
+наружу смотрит только nginx на порту 80.
+
+### GitHub Codespaces + Cloudflare Tunnel
+
+```bash
+cp .env.example .env      # укажи BOT_TOKEN от @BotFather
+bash scripts/deploy-codespaces.sh
+```
+
+Скрипт собирает образы, ждёт healthy-статусы, применяет миграции, выполняет seed,
+поднимает `cloudflared tunnel --url http://localhost:80`, вытаскивает
+`https://*.trycloudflare.com` и автоматически вызывает Telegram Bot API
+(`setChatMenuButton`), чтобы кнопка Mini App вела на этот URL.
+
+### VPS с реальным доменом
+
+1. Направь A-запись домена на сервер.
+2. Настрой TLS-терминацию на хосте (Caddy / Traefik / nginx + Certbot) с проксированием
+   на `127.0.0.1:80`.
+3. Пропиши в `.env` `WEBAPP_URL=https://твой-домен` и реальный `BOT_TOKEN`.
+4. Запусти:
+
+```bash
+bash scripts/deploy-vps.sh
+```
+
+Скрипт делает `git pull`, `docker compose -f docker-compose.yml -f docker-compose.prod.yml build`,
+поднимает контейнеры, применяет миграции и (при `SEED_ON_DEPLOY=true`) выполняет seed.
+
+### Полезное
+
+```bash
+docker compose ps                        # статусы и healthcheck
+docker compose logs -f api               # логи API
+docker compose exec -T api npx prisma migrate deploy
+docker compose exec -T api pnpm run seed
+```
+
 ## Local PostgreSQL
 
 Start the bundled compose service:

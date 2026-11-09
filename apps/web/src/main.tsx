@@ -9,7 +9,27 @@ import { useAuthStore } from "./stores/auth";
 import "./index.css";
 
 initTelegram();
-useAuthStore.getState().setInitData(getTelegramInitData());
+
+const store = useAuthStore.getState();
+store.setInitData(getTelegramInitData());
+
+// В WebView Telegram SDK иногда инициализируется на пару тиков позже.
+// Пробуем в течение ~3 секунд подхватить initData без перезагрузки.
+if (store.initData.length === 0) {
+  let attempts = 0;
+  const timer = window.setInterval(() => {
+    attempts += 1;
+    const initData = getTelegramInitData();
+    if (initData.length > 0) {
+      useAuthStore.getState().setInitData(initData);
+      window.clearInterval(timer);
+      return;
+    }
+    if (attempts >= 20) {
+      window.clearInterval(timer);
+    }
+  }, 150);
+}
 
 const rootElement = document.getElementById("root");
 if (rootElement === null) {
